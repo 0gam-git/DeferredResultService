@@ -20,7 +20,6 @@ public class DeferredResultStrore {
 	public DeferredResultStrore() {
 		responseBodyQueue = new LinkedBlockingQueue<DeferredResult<String>>();
 		groupMap = new HashMap<String, List<DeferredResult<InterfaceModel>>>();
-		// 6000
 		resultTimeOut = 60 * 60 * 1000;
 	}
 
